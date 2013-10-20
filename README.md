@@ -7,7 +7,9 @@ Initialise from CyanogenMod:
 
     repo init -u git://github.com/CyanogenMod/android.git -b cm-10.2
 
-Use the following local manifest:
+Press Ctrl and H then navigate to .repo, create a folder named local_manifest 
+Then create a file named manifest.xml inside that folder
+Now copy and paste this inside of the manifest
 
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
@@ -17,7 +19,7 @@ Use the following local manifest:
       <project path="frameworks/native" name="androidarmv6/android_frameworks_native" remote="github" revision="cm-10.2" />
       <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
       <project path="hardware/qcom/media_legacy" name="androidarmv6/android_hardware_qcom_media_legacy" remote="github" revision="cm-10.2" />
-      <project path="device/huawei/u8815" name="fusion2/android_device_huawei_u8815" remote="github" revision="cm-10.2" />
+      <project path="device/huawei/u8665" name="fusion2/android_device_huawei_u8665" remote="github" revision="cm-10.2" />
       <project path="kernel/huawei/u8815" name="fusion2/android_kernel_huawei_u8815" remote="github" revision="cm-10.2" />
       <project path="vendor/huawei" name="Dazzozo/proprietary_vendor_huawei" remote="github" revision="cm-10.2" />
     </manifest>
@@ -26,4 +28,4 @@ Sync and build:
 
     repo sync -j4
     . build/envsetup.sh
-    brunch u8815
+    brunch u8665
