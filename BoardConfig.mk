@@ -67,10 +67,10 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 50000
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := u8815
 
 # Hardware
-BOARD_HARDWARE_CLASS := device/huawei/u8815/cmhw
+BOARD_HARDWARE_CLASS := device/huawei/u8665/cmhw
 
 # RIL
-BOARD_RIL_CLASS := ../../../device/huawei/u8815/ril/
+BOARD_RIL_CLASS := ../../../device/huawei/u8665/ril/
 
 # Graphics
 COMMON_GLOBAL_CFLAGS += -DREFRESH_RATE=60 -DANCIENT_GL
@@ -102,8 +102,8 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/u8815/bluetooth
-BOARD_BLUEDROID_VENDOR_CONF := device/huawei/u8815/bluetooth/vnd_u8815.txt
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/u8665/bluetooth
+BOARD_BLUEDROID_VENDOR_CONF := device/huawei/u8665/bluetooth/vnd_u8815.txt
 
 # FM Radio
 BOARD_HAVE_FM_RADIO := true
@@ -140,8 +140,8 @@ BOARD_PAGE_SIZE := 2048
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/huawei/u8815/recovery/recovery-keys.c
 BOARD_UMS_LUNFILE := /sys/class/android_usb/android0/f_mass_storage/lun%d/file
-TARGET_RECOVERY_FSTAB := device/huawei/u8815/ramdisk/fstab.huawei
-TARGET_RECOVERY_INITRC := device/huawei/u8815/recovery/etc/init.rc
+TARGET_RECOVERY_FSTAB := device/huawei/u8665/ramdisk/fstab.huawei
+TARGET_RECOVERY_INITRC := device/huawei/u8665/recovery/etc/init.rc
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
 # Partitions
