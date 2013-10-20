@@ -1,4 +1,4 @@
-CyanogenMod device configuration for the Huawei Ascend G300.
+CyanogenMod device configuration for the Huawei Fusion 2.
 
 How to Build
 ---------------
