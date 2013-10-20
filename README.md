@@ -9,7 +9,7 @@ Initialise from CyanogenMod:
 
 Press Ctrl and H then navigate to .repo, create a folder named local_manifest 
 Then create a file named manifest.xml inside that folder
-Now copy and paste this inside of the manifest
+Now copy and paste this inside of the manifest.xml
 
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
