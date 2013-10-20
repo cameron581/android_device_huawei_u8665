@@ -2,7 +2,7 @@
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := U8815
+PRODUCT_RELEASE_NAME := U8665
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
@@ -11,14 +11,14 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/huawei/u8815/u8815.mk)
 
 # Correct boot animation size for the screen.
-TARGET_SCREEN_HEIGHT := 800
-TARGET_SCREEN_WIDTH := 480
+TARGET_SCREEN_HEIGHT := 320
+TARGET_SCREEN_WIDTH := 240
 
 # Device naming
-PRODUCT_NAME := cm_u8815
-PRODUCT_DEVICE := u8815
+PRODUCT_NAME := cm_u8665
+PRODUCT_DEVICE := u8665
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Ascend G300
+PRODUCT_MODEL := Fusion 2
 PRODUCT_MANUFACTURER := HUAWEI
 
 # Set build fingerprint / ID / Product Name ect.
