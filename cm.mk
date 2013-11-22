@@ -8,7 +8,7 @@ PRODUCT_RELEASE_NAME := U8665
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/huawei/u8815/u8815.mk)
+$(call inherit-product, device/huawei/u8665/u8665.mk)
 
 # Correct boot animation size for the screen.
 TARGET_SCREEN_HEIGHT := 320
