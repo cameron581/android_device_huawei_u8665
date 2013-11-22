@@ -3,12 +3,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # The GPS configuration appropriate for this device.
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 
-$(call inherit-product, vendor/huawei/u8665/u8665-vendor.mk)
+$(call inherit-product, vendor/huawei/u8815/u8815-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/huawei/u8665/overlay
 
-PRODUCT_AAPT_CONFIG := normal hdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
+PRODUCT_AAPT_CONFIG := normal mdpi
+PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Video
 PRODUCT_PACKAGES += \
