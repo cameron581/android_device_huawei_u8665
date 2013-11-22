@@ -20,8 +20,9 @@ Now copy and paste this inside of the manifest.xml
       <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" />
       <project path="hardware/qcom/media_legacy" name="androidarmv6/android_hardware_qcom_media_legacy" remote="github" revision="cm-10.2" />
       <project path="device/huawei/u8665" name="fusion2/android_device_huawei_u8665" remote="github" revision="cm-10.2" />
-      <project path="kernel/huawei/u8665" name="fusion2/android_kernel_huawei_u8815" remote="github" revision="cm-10.2" />
-      <project path="vendor/huawei" name="Dazzozo/proprietary_vendor_huawei" remote="github" revision="cm-10.2" />
+      <project path="kernel/huawei/huawei-kernel-3.4" name="fusion2/huawei-kernel-3.4" remote="github" revision="master" />
+      <project path="vendor/huawei" name="Fusion2/proprietary_vendor_huawei" remote="github" revision="cm-10.2" />
+      <project path="device/huawei/msm7x27a-common" name="Dazzozo/android_device_huawei_msm7x27a-common" remote="github" revision="cm-10.2" />
     </manifest>
 
 Sync and build:
